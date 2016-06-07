@@ -3,7 +3,7 @@ name = "ethkey"
 version = "0.2.0"
 dependencies = [
  "docopt 0.6.80 (registry+https://github.com/rust-lang/crates.io-index)",
- "eth-secp256k1 0.5.4 (git+https://github.com/ethcore/rust-secp256k1)",
+ "eth-secp256k1 0.5.4 (git+https://github.com/rphmeier/rust-secp256k1)",
  "lazy_static 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "rand 0.3.14 (registry+https://github.com/rust-lang/crates.io-index)",
  "rustc-serialize 0.3.19 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -40,7 +40,7 @@ dependencies = [
 [[package]]
 name = "eth-secp256k1"
 version = "0.5.4"
-source = "git+https://github.com/ethcore/rust-secp256k1#ae7ee3a1200a87b84379388e59d19ce10d4a0cf9"
+source = "git+https://github.com/rphmeier/rust-secp256k1#f38323d90bbfaa0901c5a250993f775eb90e5b7e"
 dependencies = [
  "arrayvec 0.3.16 (registry+https://github.com/rust-lang/crates.io-index)",
  "gcc 0.3.28 (registry+https://github.com/rust-lang/crates.io-index)",
